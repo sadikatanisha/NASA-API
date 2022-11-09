@@ -1,0 +1,49 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+body{
+  background-color: rgb(13, 9, 22);
+  color: rgb(232, 235, 238);
+  width: 100%;
+}
+h1{
+  width: fit-content;
+  height: 70px;
+ 
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+h2{
+  width: 60%;
+  font-size: 1.5rem;
+  margin: 0 auto;
+
+
+}
+main{
+  height: 100vh;
+  width: 100%;
+}
+h3{
+  font-size: .8rem;
+  font-weight: 200;
+  line-height: 1.5rem;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
